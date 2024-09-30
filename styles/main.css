@@ -1,0 +1,10 @@
+:root{
+  --banner-height: 80px;
+  --banner-bg: #8bd994;
+}
+
+#banner{
+  background: var(--banner-bg);
+  height: var(--banner-height);
+  border-bottom: 1px solid #000;
+}

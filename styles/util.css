@@ -1,0 +1,66 @@
+.bold{
+  font-weight: 600;
+}
+
+.simple-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.df{
+  display: flex;
+}
+
+.aic{
+  align-items: center;
+}
+
+.tac{
+  text-align: center;
+}
+
+.fs1{
+  align-items: flex-start;
+}
+
+.fs2{
+  align-self: flex-start;
+}
+
+.vert-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.g5{
+  gap: 5px;
+}
+
+.g10{
+  gap: 10px;
+}
+
+.g15{
+  gap: 15px;
+}
+
+.g20{
+  gap: 20px;
+}
+
+.g25{
+  gap: 25px;
+}
+
+.g30{
+  gap: 30px;
+}
+
+.c-white{
+  color: white;
+}
+
+.c-black{
+  color: black;
+}
