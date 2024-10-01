@@ -1,10 +1,82 @@
 :root{
   --banner-height: 80px;
   --banner-bg: #8bd994;
+
+  --main-bg: #eee;
+
+  --content-width: 55vw;
+  --content-bg: white;
+  --content-border: 2px solid #d6d6d6;
 }
 
 #banner{
+  position: fixed;
+  width: 100%;
   background: var(--banner-bg);
   height: var(--banner-height);
-  border-bottom: 1px solid #000;
+  border-bottom: var(--content-border);
+}
+
+#main{
+  position: relative;
+  top: var(--banner-height);
+  background: var(--main-bg);
+}
+
+/*height of page subtract banner height*/
+.main-height{
+  min-height: calc(100vh - var(--banner-height));
+}
+
+#content{
+  width: var(--content-width);
+  border-left: var(--content-border);
+  border-right: var(--content-border);
+  background-color: var(--content-bg);
+  padding: 100px 0;
+}
+
+/* common width of elements inside #content*/
+.content-width{
+  width: 40vw;
+}
+
+.separator{
+  border-bottom: 2px solid #d4d4d4;
+}
+
+.head-button{
+  padding: 10px;
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 5px;
+  background-color: #bef1c4;
+  color: rgb(31, 31, 31);
+  cursor: pointer;
+}
+
+.head-button:hover{
+  background-color: #95eba0;
+}
+
+.head-button:active{
+  background-color: #6ce47c;
+}
+
+.performance-group{
+}
+
+.pg-head{
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+.pg-content{
+  border: 1px solid #000;
+  padding: 15px;
+  border-radius: 0 0 5px 5px;
+  min-height: 250px;
 }
