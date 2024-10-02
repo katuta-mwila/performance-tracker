@@ -80,3 +80,63 @@
   border-radius: 0 0 5px 5px;
   min-height: 250px;
 }
+
+.pg-left{
+  width: 50%;
+}
+
+.pg-right{
+  width: 50%;
+}
+
+.text-input-1{
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  
+}
+.performance-name-input{
+  width:100%;
+}
+
+.record-section{
+
+}
+
+.record{
+
+}
+
+.record-index{
+
+}
+
+.record-input{
+  text-align: center;
+  width: 60px;
+}
+
+.record-plus{
+  cursor: pointer;
+}
+
+.stats-table{
+
+}
+
+.stat-row{
+  padding: 2px 0;
+}
+
+.col1, .col2{
+
+}
+
+.col1{
+  width: 50%;
+}
+
+.col2{
+  width: 50%;
+}
